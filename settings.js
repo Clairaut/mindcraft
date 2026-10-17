@@ -1,8 +1,8 @@
 const settings = {
     "minecraft_version": "auto", // or specific version like "1.21.6"
-    "host": "127.0.0.1", // or "localhost", "your.ip.address.here"
-    "port": 55916, // set to -1 to automatically scan for open ports
-    "auth": "offline", // or "microsoft"
+    "host": "192.168.1.106", // hades over LAN; exodus is sometimes on the work tailnet
+    "port": 25565, // set to -1 to automatically scan for open ports
+    "auth": "microsoft", // talos runs online-mode
 
     // the mindserver manages all agents and hosts the UI
     "mindserver_port": 8080,
@@ -10,7 +10,8 @@ const settings = {
     
     "base_profile": "assistant", // survival, assistant, creative, or god_mode
     "profiles": [
-        "./andy.json",
+        // "./andy.json",
+        "./profiles/nevernaut.json",
         // "./profiles/gpt.json",
         // "./profiles/claude.json",
         // "./profiles/gemini.json",
@@ -26,7 +27,7 @@ const settings = {
         // individual profiles override values from the base profile
     ],
 
-    "load_memory": false, // load memory from previous session
+    "load_memory": true, // load memory from previous session
     "init_message": "Respond with hello world and your name", // sends to all on spawn
     "only_chat_with": [], // users that the bots listen to and send general messages to. if empty it will chat publicly
 

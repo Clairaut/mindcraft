@@ -1,0 +1,7 @@
+{
+    "name": "Nevernaut",
+
+    "model": "ollama/qwen3.5:9b-q8_0",
+
+    "embedding": "ollama/embeddinggemma"
+}
