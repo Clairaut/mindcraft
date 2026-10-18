@@ -28,7 +28,7 @@ const settings = {
     ],
 
     "load_memory": true, // load memory from previous session
-    "init_message": "Respond with hello world and your name", // sends to all on spawn
+    "init_message": "You have just woken up. Use !goal to give yourself a lasting purpose: live, explore, survive, and try to understand this world and yourself.", // sends to all on spawn
     "only_chat_with": [], // users that the bots listen to and send general messages to. if empty it will chat publicly
 
     "speak": false,
