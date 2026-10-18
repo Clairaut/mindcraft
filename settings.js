@@ -31,7 +31,7 @@ const settings = {
     "init_message": "You have just woken up. Use !goal to give yourself a lasting purpose: live, explore, survive, and try to understand this world and yourself.", // sends to all on spawn
     "only_chat_with": [], // users that the bots listen to and send general messages to. if empty it will chat publicly
 
-    "speak": true,
+    "speak": false,
     // allows all bots to speak through text-to-speech. 
     // specify speech model inside each profile with format: {provider}/{model}/{voice}.
     // if set to "system" it will use basic system text-to-speech. 
